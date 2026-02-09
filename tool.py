@@ -4,8 +4,8 @@ import os
 API_KEY = "p5kVDtufCtK4g1rg9q5bKxAoF7vDVta9EaqXjtEy0GJEmgKtf00OipI0"   # 🔥 put your key here
 headers = {"Authorization": API_KEY}
 
-topic = "fast-food"
-per_page = 30
+topic = "cat"
+per_page = 10
 
 url = f"https://api.pexels.com/v1/search?query={topic}&per_page={per_page}"
 
@@ -16,7 +16,7 @@ if res.status_code != 200:
     exit()
 
 data = res.json()
-startNumber=150
+startNumber=0
 
 os.makedirs(topic, exist_ok=True)
 
