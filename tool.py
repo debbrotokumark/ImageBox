@@ -1,7 +1,7 @@
 import requests
 import os
 
-API_KEY = "p5kVDtufCtK4g1rg9q5bKxAoF7vDVta9EaqXjtEy0GJEmgKtf00OipI0"   # 🔥 put your key here
+API_KEY = ""   # 🔥 put your key here
 headers = {"Authorization": API_KEY}
 
 topic = "cat"
